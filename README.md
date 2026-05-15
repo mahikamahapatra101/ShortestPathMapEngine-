@@ -1,23 +1,27 @@
 # Shortest Path Map Engine
 
-A graph-based navigation system that finds the most efficient route between nodes using Dijkstra's Algorithm.
+Finds the shortest route between nodes in a weighted directed graph
+using Dijkstra's algorithm.
 
-## How It Works
-- Models a map as a **Weighted Directed Graph** where nodes are locations and edges are paths with distances
-- Uses a **Priority Queue** to optimize Dijkstra's, achieving O((E+V) log V) time complexity
-- Handles edge cases including disconnected nodes and unreachable destinations
+## How it works
 
-## Tech Stack
+- Represents a map as a weighted directed graph — nodes are locations,
+  edges are paths with distances
+- Uses a priority queue to drive Dijkstra's, giving O((E+V) log V) time
+- Handles disconnected nodes and unreachable destinations
+
+## Tech stack
+
 - Java
-- JUnit 5 (unit testing)
+- JUnit 5
 
-## Running the Project
+## Running it
+
 1. Clone the repo
 2. Open in IntelliJ or Eclipse
 3. Run `src/Main.java`
 
-## Testing
-JUnit 5 test suites cover:
-- Disconnected nodes
-- Single-node graphs
-- Unreachable destinations
+## Tests
+
+Covers disconnected nodes, single-node graphs, and unreachable
+destinations.
