@@ -5,7 +5,7 @@ using Dijkstra's algorithm.
 
 ## How it works
 
-- Represents a map as a weighted directed graph — nodes are locations,
+- Represents a map as a weighted directed graph, nodes are locations,
   edges are paths with distances
 - Uses a priority queue to drive Dijkstra's, giving O((E+V) log V) time
 - Handles disconnected nodes and unreachable destinations
